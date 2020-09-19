@@ -1,16 +1,16 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
-import {MyComponent} from './components'; // import componenets
+import {StoriesContainer} from './containers/StoriesContainer'
 
 import styles from './App.module.css';
 
-const App = () => {
+
+
+export const App = () =>  {
     return (
         <>
-            <h1 className={styles.app}>App</h1>
-            <MyComponent />
+        <p>Hey</p>
+        <StoriesContainer />
         </>
-    )
+)
 }
-
-export default App;
